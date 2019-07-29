@@ -1,0 +1,82 @@
+@media only screen and (max-width:1200px){
+ section{padding:40px 0;}
+ .details{padding:20px 0 20px 15px;}
+ .detail-wrap{max-width:590px;}
+ .product-details{width:50%;}
+ .desc-title{padding:15px 15px 15px 0;width:390px;}
+ .left-desc{padding:105px 25px 0 0;}
+ .desc-vero,.video-part{margin-bottom:80px;}
+ .btn-dowanload{padding:30px;}
+ .sidebar-content{padding-right:30px;}
+ .review-area{padding-right:0;}
+ .related-product ul li{width:calc(33.33% - 4px)}
+ .img-box{width:250px;}
+}
+@media only screen and (max-width:992px){.sidebar-link-area h1{display:none;}
+
+.sidebar-link-area{width:170px;top:140px;padding:25px 25px 25px 0;}
+.sidebar-content{width:calc(100% - 200px);}
+.detail-wrap{max-width:100%;}
+.product-details{padding-right:15px;}
+nav ul li{margin-left:10px;}
+header{padding:20px 30px;}
+.user-opt a{margin-left:20px;}
+
+}
+@media only screen and (max-width:870px){
+
+    header{padding:10px 15px;transition:none;-webkit-transition:none;-o-transition:none;-ms-transition:none;}
+ header *{transition:none;-webkit-transition:none;-o-transition:none;-ms-transition:none;}
+.sidebar-link-area{top:50px;left:0;right:0;background-color:#ffffff;width:100%;padding:0;border-top:1px solid #ccc;z-index:999;}
+.static-link ul{margin:0;display:flex;display:-webkit-flex;justify-content:space-around;align-items:center;}
+.static-link ul li{display:inline-flex;width:auto;align-items:center;margin:0;}
+ .static-link ul li a{padding:12px 15px;}
+.socail-icons,.breadcrumb{display:none;}
+.static-link ul li:hover::after, .static-link ul li.active::after{display:none;}
+.static-link ul li.active a{background-color:#ffd541;color:#ffffff;}
+.sidebar-content{width:100%;}
+.wrapper{padding:50px 15px;}
+.sidebar-content{padding:0;}
+.details{padding:20px 0 20px 30px;}
+nav{display:none;}
+.navbar-toggler{display:inline-block;height:25px;width:25px;padding:15px;background:url(../images/humber-ico.png) no-repeat center;font-size:0;border:none;outline:none;cursor:pointer;}
+.navbar-toggler.navbar-show{background:url(../images/close.png) no-repeat center;background-size:17px auto;}
+.user-opt a:first-child{margin-left:0;}
+nav{display:none;position:absolute;left:0;top:50px;right:0;background-color:#fff;border-top:1px solid #ccc;}
+nav ul{width:100%;}
+nav ul li{width:100%;margin:0;display:block;}
+nav ul li a{padding:10px 15px;width:100%;border-bottom:1px solid #ccc;float:left;width:100%;}
+.static-link ul li a{padding:10px;font-size:12px;}
+.logo a img{width:30px;height:auto;}
+.logo{margin-left:50px;}
+.details::before{display:none;}
+}
+
+@media only screen and (max-width:670px){
+
+    .details{padding:0;}
+.product-img{width:100%;left:0;top:0;background-color:#ffffff;padding:20px;}
+.product-img img{top:-50px;position:relative;}
+.detail-wrap,.product-details{width:100%;background-color:#ffffff;padding:0;}
+.product-details{padding:0 20px 40px 20px;margin-top:-40px;position:relative;}
+.descrptions{padding-top:70px;}
+.desc-vero{display:-webkit-flex;display:flex;flex-direction:column;padding:0 20px 40px 20px;background-color:#fff;padding-top:0;}
+.desc-title{padding:15px 0 15px 0;width:100%;order:2;position:static;background-color:transparent;margin-top:-30px;}
+.left-desc{padding:0;order:2;width:100%;}
+.right-desc{width:100%;position:relative;order:1;top:-30px;}
+.desc-vero{margin-bottom:40px;}
+.video-part{display:flex;display:-webkit-flex;flex-direction:column;margin:40px 0;}
+.video-part .desc-title{margin:0;padding:15px;background-color:#ffffff;}
+.img-wrap{order:1;}
+.img-box{width:170px;}
+.btn-dowanload{padding:10px;font-size:12px;}
+.btn-dowanload img{width:20px;}
+.reviewer{width:100%;float:left;}
+.revier-details{margin-left:0;margin-top:15px;float:left;width:100%;}
+.related-product ul li{width:calc(50% - 4px)}
+.review-area ul{margin:0;}
+}
+
+@media only screen and (min-width:871px){
+    nav{display:-webkit-inline-flex !important;display:inline-flex !important;}
+ }
